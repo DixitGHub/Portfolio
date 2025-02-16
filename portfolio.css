@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    padding: 50px;
+    background-color: lightgray;
+}
+
+.section-one {
+    color: white;
+    background-color: black;
+    padding: 20px;
+}
+
+.section-one__name{
+    font-size: 60px;
+}
+
+.section-one__role{
+    font-size: 30px;
+}
+
+.section-one__contact{
+    color: white;
+    background-color: orangered;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.section-two__title,.section-three__title,.section-four__title,.section-five__title{
+    margin-top: 20px;
+}
+
+.section-two__desc,.section-three__desc,.section-four__desc,.section-five__desc{
+    margin-top: 10px;
+}
+
+.section-three__desc li,.section-four__desc li{
+    list-style: none;
+}
+
+.section-five{
+    color: white;
+    background-color: black;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.section-five__title a{
+    color: orangered;
+}
+
+.section-three{
+    color: white;
+    background-color: #080DC5;
+    padding: 30px;
+    border-radius: 10px;
+    display: inline-block;
+    vertical-align: top;
+    height: 180px;
+    margin-top: 20px;
+}
+
+.section-three__desc li{
+    margin-left: 10px;
+}
+
+.section-four{
+    color: white;
+    background-color: #FE3A00;
+    padding: 30px;
+    border-radius: 10px;
+    display: inline-block;
+    height: 180px;
+    width: 80%;
+    margin-top: 20px;
+}
+
+.section-four__desc li{
+    margin-left: 10px;
+}
+
+.container-contactform{
+    padding: 50px;
+    background-color: lightgrey;
+}
+
+.section-six {
+    color: white;
+    background-color: black;
+    padding: 20px;
+}
+
+.section-six__name{
+    font-size: 60px;
+}
+
+.section-six__role{
+    font-size: 30px;
+}
+
+.section-six__home{
+    color: white;
+    background-color: orangered;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.section-eight{
+    color: white;
+    background-color: black;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.section-eight__title a{
+    color: orangered;
+}
+
+.section-seven__input{
+    border: none;
+    border-bottom: #FE3A00 solid 1px;
+}
+
+.section-seven__textarea{
+    border: none;
+    border: #FE3A00 solid 1px;
+}
+
+.section-seven__submit{
+    color: white;
+    background-color: #FE3A00;
+    padding: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+}
